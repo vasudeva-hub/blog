@@ -1,0 +1,112 @@
+* {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.main {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding: 2%;
+}
+
+.one {
+    color: white;
+    text-align: center;
+    padding: 1%;
+    font-size: 40px;
+}
+
+.main label {
+    color: beige;
+    font-size: 2px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.main input[type="text"],
+[type="email"],
+[type="password"] {
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.cont {
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.btn {
+    background-color: beige;
+    color: black;
+    border: none;
+    margin-top: 5%;
+    padding: 4%;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.end {
+    text-align: center;
+    color: white;
+    margin-right: 10%;
+}
+
+.end a {
+    color: rgb(9, 148, 235);
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+.two {
+    color: white;
+    text-align: left;
+    font-size: 40px;
+}
+
+.btm {
+    background-color: none;
+    color: white;
+    border: 2px solid;
+    margin-top: 5%;
+    padding: 4%;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px
+}
+
+.btm:hover {
+    background-color: none;
+    color: aquamarine;
+}
+
+.bta {
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 5%;
+    padding: 3%;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px
+}
+
+.bta i {
+    color: black;
+    font-size: 23px;
+    background-color: white;
+}
+
+.btn i {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border:2px solid black;
+            width:700px;
+            height:500px;
+            background-color: aqua;
+            display:flex;
+            flex-direction: row;
+           /* flex-wrap:wrap;
+            align-content: center;*/
+           /* justify-content: space-evenly;
+            align-items: center;*/
+
+        }
+        .child{
+           width:80px;
+           height:80px;
+        }
+        .one{
+            background-color: brown;
+            flex-shrink:10 ;
+            order:2;
+            align-self:self-end ;
+            flex-grow: 6;
+        }
+        .two{
+            background-color: orangered;
+            order:1;
+            align-self: self-start;
+            flex-grow: 8;
+        }
+        .three{
+            background-color: blueviolet;
+            flex-shrink: 20;
+            order:3;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <div class="child one">child1</div>
+        <div class="child two">child2</div>
+        <div class="child three">child3</div>
+        </section>
+</body>
+</html>
+<!-- parent
+ display:flex
+ flex-direction
+ justify-content
+ align-items
+ *bulk content
+ align-content
+ flex-wrap
+ flex-flow:direction wrap-->
+ <!-- child
+  align-self
+  order
+  shrink
+  grow-->

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+.navbar-brand{
+    width:10%;
+}
+.navbar{
+    background-color:#ec407a;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-link:hover{
+    border: 2px solid rgb(40, 222, 30);
+    color: white;
+}
+.fa-bars{
+    color: white;
+    
+}
+/*home*/
+.bgimg{
+    background-image: url(https://img.pikbest.com/ai/illus_our/20230421/e610a2b1bebf43e5f2a35a0a70e1a2f4.jpg!w700wp);
+    width:99vw;
+    height:90vh;
+    background-size: cover;
+    background-position: center;
+}
+.bt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.head{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-size: 50px;
+}
+@media screen and (min-width:350px) and (max-width:700px){
+    .bgimg{
+        height:40vh;
+    }
+}
+/*about*/
+.carousal-item .d-block{
+    aspect-ratio: 6/2;
+    width:100%;
+}
+.one{
+    background-color: #ec407a;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 2%;
+}
+.two{
+    background-color: white;
+    color: #ec407a;
+    font-weight: bold;
+    line-height: 40px;
+    border: 1px solid #ec407a;
+    padding:2%;
+}
+/*products*/
+.card-title{
+    color: #ec407a;
+}
+.card-text{
+    color: green;
+    font-size: 30px;
+}
+.card-img-top{
+    aspect-ratio: 3/4;
+    width: 100%;
+}
+/*payment*/
+.input-group-text{
+    color: white;
+    font-weight: bold;
+    background-color:#ec407a ;
+    border: none;
+}
+/*contact*/
+.form-label{
+    color: #ec407a;
+    font-weight: bold;
+}
+/*footer*/
+.bgi{
+    background-color: #ec407a;
+}
+.texts{
+    color: white;
+    text-decoration: 5px solid yellow underline;
+}
+.icons{
+    color: azure;
+    font-size: 30px;
+}
+.icons .fa-brands:hover{
+    transform: rotate(90deg);
+    color: black;
+}
+.last{
+    color: beige;
+    font-weight: bold;
+}

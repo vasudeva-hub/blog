@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.main{
+   /* background-color: orange;*/
+ /*  background:linear-gradient(to top,green,yellow,red,aqua);*/
+/* background:radial-gradient(green,yellow,pink,red,green);*/
+background-image: url("https://i.ytimg.com/vi/IUN664s7N-c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCK23ncwZjjd8IisSnQeSXEp5ZjXw");
+background-size: cover;
+background-position: center;
+    width:100vw;
+    height:100vh;
+}
+.content{
+    color:brown;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#para{
+    color:blueviolet;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    text-decoration: underline overline 8px solid green;
+    text-align: start;
+    /*end,center*/
+    text-shadow: 1px 2px 3px orangered;
+
+}
+.test{
+    text-decoration: none;
+}
+.move{
+    float:right;
+}
+.arrange li{
+    display: inline;
+}

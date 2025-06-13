@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: white;
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    vertical-align: middle;
+    margin-left: 3%;
+    text-transform: 1%;
+    color: black;
+}
+.navbar a:hover{
+    color: orange;
+}
+.navbar a img{
+    padding-right:5%;
+}
+.one{
+    padding-left: 20%;
+}
+.three{
+    padding-left: 7%;
+}
+.four{
+    padding-left: 5%;
+}
+.top {
+   padding-left: 7%; 
+}
+.pic a img{
+padding: 1%;
+}

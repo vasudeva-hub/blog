@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .main{
+           /* border-width: 10px;
+            border-style: groove;
+            border-color: orange;*/
+          /*  border:10px solid orange;
+            border-top-color:yellow;
+            border-top-width:10px;
+            border-top-style:groove;*/
+           /* border:2px solid blue;
+            width:40%;*/
+          /*  border-radius: 50px;*/
+         /* border-top-left-radius: 20px;
+          border-bottom-right-radius: 50px;
+          background-color: lightsalmon;*/
+           /* padding:3%;*/
+          /* padding-top:3%;
+           padding-bottom:4%;*/
+          /* padding-left:5%;*/
+         /* margin:5%;*/
+        /* margin-top: 10%;
+         margin-bottom: 5%;
+         margin-left: 8%;*/
+        }
+        .highlight::first-letter {
+            color:orangered;
+            font-size: 60px;
+        }
+        .highlight::first-line{
+            color:aqua;
+            font-weight: 100;
+        }
+        .highlight::before{
+            content:"before added content";
+            background-color: blueviolet;
+        }
+        .highlight::after{
+            content:"after added content";
+            background-color: brown;
+        }
+        .highlight::selection{
+            background-color:black;
+            color:yellow;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--  <h1 class="main">content box model</h1>-->
+    <h1 class="highlight" >pseudo elements Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem mollitia nobis culpa rem, soluta distinctio perferendis, dicta nulla impedit quisquam laboriosam illo veniam repellat atque adipisci? Ullam iste voluptates eaque!</h1>
+</body>
+</html>
